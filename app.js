@@ -42,7 +42,7 @@ app.use(function (err, req, res, next) {
 const mongoose = require("mongoose");
 
 mongoose.set("strictQuery", false);
-const mongoDB = "mongodb+srv://1ansarbektimirov1:qwerty123456@cluster0.cojoign.mongodb.net/local_library?retryWrites=true&w=majority&appName=Cluster0";
+const mongoDB = "mongodb+srv://kartem025:MSVKJRfWZbmP8FLY@cluster0.ebdld1g.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 main().catch((err) => console.log(err));
 async function main() {
